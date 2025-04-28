@@ -10,10 +10,8 @@ const Navbar = () => {
   
         {/* Navigation Links + Login Button */}
         <div className="flex items-center space-x-6">
-          <a href="#" className="hover:underline">Home</a>
-          <a href="#" className="hover:underline">Rooms</a>
-          <a href="#" className="hover:underline">Facilities</a>
-          <a href="#" className="hover:underline">Contact</a>
+          <a href="/" className="hover:underline">Home</a>
+         
   
           {/* Login Button */}
          <Link to="/login"
