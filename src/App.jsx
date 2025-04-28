@@ -10,10 +10,11 @@ import Announcements from "./warden/Announcements";
 import Login from "./student/auth/login";
 import Signup from "./student/auth/signup";
 import StudentDashboard from "./student/StudentDashboard";
-
+import Navbar from "./component/Navbar";
 function App() {
   return (
     <Router>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
