@@ -76,7 +76,13 @@ const StudentDashboard = () => {
   const submitComplaint = async (e) => {
     e.preventDefault();
     if (!complaint.trim()) return;
-
+    console.log({
+      complaint,
+      student_id: userData?.user_metadata?.student_id,
+      user_id: userData?.id,
+      email: userData?.email,
+    });
+    
     setSubmitting(true);
 
     try {
