@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { supabase } from "../supabaseClient"; // adjust path if needed
+import  supabase  from "../supabaseClient"; // adjust path if needed
 
 const Navbar = () => {
   const [user, setUser] = useState(null);
